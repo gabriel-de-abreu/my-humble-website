@@ -45,12 +45,11 @@
 
 @media(min-width:320px) and (max-width:560px) {
     .navbar-main {
-        height: 25px;
+        height: 30px;
         width: 50%;
         position: fixed;
         right: 0;
         z-index: 100;
-        padding-right: 5px;
         padding-bottom: 5px;
         padding-top: 5px;
         background-color: rgba(0, 0, 0, 0.521);
@@ -61,6 +60,7 @@
         width: 100%;
         align-items: center;
         justify-content: flex-end;
+        padding-left: 5px;
     }
     .navbar-content :last-child {
         margin-right: 5px;
@@ -90,15 +90,15 @@
 
 @media(min-width:360px) and (max-width:409px) {
     .navbar-main {
-        height: 25px;
+        height: 35px;
         width: 50%;
         position: fixed;
         right: 0;
         z-index: 100;
-        padding-right: 5px;
-        padding-bottom: 5px;
-        padding-top: 5px;
         background-color: rgba(0, 0, 0, 0.521);
+    }
+    .navbar-content {
+        padding-left: 15px;
     }
     .nav-links {
         display: inline-block;
@@ -117,15 +117,15 @@
 
 @media(min-width:410px) and (max-width:650px) {
     .navbar-main {
-        height: 25px;
-        width: 45%;
+        height: 35px;
+        width: 40%;
         position: fixed;
         right: 0;
         z-index: 100;
-        padding-right: 5px;
-        padding-bottom: 5px;
-        padding-top: 5px;
         background-color: rgba(0, 0, 0, 0.75);
+    }
+    .navbar-content {
+        padding-left: 5px;
     }
     .nav-links {
         display: inline-block;
@@ -151,7 +151,7 @@
     }
 }
 
-@media(min-width: 1200px){
+@media(min-width: 1200px) {
     .navbar-main {
         width: 37%;
     }
@@ -160,7 +160,7 @@
     }
 }
 
-@media(min-width: 1280px){
+@media(min-width: 1280px) {
     .navbar-main {
         width: 34%;
     }
@@ -169,14 +169,13 @@
     }
 }
 
-
-@media(min-width: 1400px){
+@media(min-width: 1366px) {
     .navbar-content :last-child {
         margin-right: 15px;
     }
 }
 
-@media(min-width: 1600px){
+@media(min-width: 1600px) {
     .navbar-main {
         width: 28%;
     }
@@ -185,7 +184,7 @@
     }
 }
 
-@media(min-width: 1900px){
+@media(min-width: 1900px) {
     .navbar-main {
         width: 25%;
     }
