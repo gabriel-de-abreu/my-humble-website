@@ -54,7 +54,7 @@
 
 /* Telas menores que  720px*/
 
-@media (min-width:360px) and (max-width:719px) {
+@media (min-width:320px) and (max-width:719px) {
     .service-div {
         width: 90%;
         height: 33.333333333%;
