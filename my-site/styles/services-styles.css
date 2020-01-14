@@ -54,7 +54,7 @@
 
 /* Telas menores que  720px*/
 
-@media (min-width:560px) and (max-width:719px) {
+@media (min-width:360px) and (max-width:719px) {
     .service-div {
         width: 100%;
         height: 33.333333333%;
@@ -67,7 +67,7 @@
     }
     .service-block {
         width: 80%;
-        height: 87%;
+        height: 90%;
         text-align: center;
         border: 2px rgb(212, 204, 204) solid;
         transition: transform 250ms, border 300ms ease-in-out;
@@ -88,8 +88,8 @@
     .service-paragraph {
         margin-top: 5%;
         font-family: 'Lato', sans-serif;
-        font-size: 18px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 18px;
         font-weight: 300;
         color: white;
         margin-right: 5%;

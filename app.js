@@ -6,5 +6,5 @@ app.use(express.static('my-site'));
 var port = process.env.PORT || 3000;
 
 app.listen(port, function () {
-    console.log('My Humble Website listening on port ${port}!');
+    console.log(`My Humble Website listening on port ${port}!`);
 });
