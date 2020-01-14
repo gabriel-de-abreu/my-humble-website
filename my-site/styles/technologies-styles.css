@@ -5,7 +5,8 @@
 }
 
 #technologies-section {
-    background-image: url('../imgs/services-img.jpg');
+    background-image: url('../imgs-originais/tech-img.jpg');
+    background-size: 100%;
     background-attachment: fixed;
 }
 
