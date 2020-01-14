@@ -57,9 +57,11 @@
     font-size: 23px;
     font-weight: 300;
     letter-spacing: 1px;
-    transition: transform 250ms;
+    transition: transform 250ms, border 300ms ease-in-out;
+    ;
 }
 
 .inner-tile:hover {
     transform: scale(1.05);
+    border: 2px rgb(248, 248, 248) solid;
 }
