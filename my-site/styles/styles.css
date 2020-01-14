@@ -42,6 +42,15 @@ body {
     justify-content: center;
 }
 
+.center-div-rows {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .center-horizon-div {
     width: 100%;
     height: 100%;
@@ -85,7 +94,35 @@ body {
     overflow: hidden;
 }
 
-@media(min-width:320px) and (max-width:560px){
+.title-header{
+    text-align: center;
+    display: block;
+    width: 100%;    
+}
+
+.title-paragraph{
+    font-family: 'Lato', sans-serif;
+    margin-top:1%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+@media(min-width:320px) and (max-width:359px){
+    .responsive-header{
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin-left: 2%;
+        font-size: 15px;
+    }
+}
+
+@media(min-width:360px) and (max-width:560px){
     .responsive-header{
         display: block;
         text-align: left;
