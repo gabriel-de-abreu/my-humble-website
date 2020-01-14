@@ -112,17 +112,8 @@ body {
     letter-spacing: 1px;
 }
 
-@media(min-width:320px) and (max-width:359px){
-    .responsive-header{
-        display: block;
-        text-align: left;
-        width: 100%;
-        margin-left: 2%;
-        font-size: 15px;
-    }
-}
 
-@media(min-width:360px) and (max-width:560px){
+@media(min-width:320px) and (max-width:560px){
     .responsive-header{
         display: block;
         text-align: left;
