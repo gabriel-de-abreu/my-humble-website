@@ -1,44 +1,82 @@
-.navbar-main {
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-    padding-right: 15px;
+@media(min-width:720px) {
+    .navbar-main {
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        padding-right: 15px;
+    }
+    .navbar-content {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .navbar-content :last-child {
+        margin-right: 15px;
+    }
+    .nav-links {
+        display: inline-block;
+        margin-left: 15px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 100;
+        font-size: 18px;
+        padding-bottom: 1px;
+        border-bottom: 1px rgba(255, 255, 255, 0) solid;
+        transition: border-bottom 500ms;
+    }
+    .nav-links:hover {
+        border-bottom: 1px white solid;
+    }
+    .nav-links:visited {
+        text-decoration: none;
+        color: white;
+    }
+    .nav-links:link {
+        text-decoration: none;
+        color: white;
+    }
 }
 
-.navbar-content {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.navbar-content :last-child {
-    margin-right: 15px;
-}
-
-.nav-links {
-    display: inline-block;
-    margin-left: 15px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-    font-size: 18px;
-    padding-bottom: 1px;
-    border-bottom: 1px rgba(255, 255, 255, 0) solid;
-    transition: border-bottom 500ms;
-}
-
-.nav-links:hover {
-    border-bottom: 1px white solid;
-}
-
-.nav-links:visited {
-    text-decoration: none;
-    color: white;
-}
-
-.nav-links:link {
-    text-decoration: none;
-    color: white;
+@media(min-width:320px) and (max-width:700px) {
+    .navbar-main {
+        height: 30px;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        padding-right: 5px;
+        padding-top: 5px;
+    }
+    .navbar-content {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .navbar-content :last-child {
+        margin-right: 5px;
+    }
+    .nav-links {
+        display: inline-block;
+        margin-left: 5px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        padding-bottom: 1px;
+        border-bottom: 1px rgba(255, 255, 255, 0) solid;
+        transition: border-bottom 500ms;
+    }
+    .nav-links:hover {
+        border-bottom: 1px white solid;
+    }
+    .nav-links:visited {
+        text-decoration: none;
+        color: white;
+    }
+    .nav-links:link {
+        text-decoration: none;
+        color: white;
+    }
 }
