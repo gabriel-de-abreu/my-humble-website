@@ -1,3 +1,35 @@
-#technologies-section{
-    background-color: rgb(68, 60, 60);
+#technologies-section {
+    background-image: url('../imgs/services-img.jpg');
+    background-attachment: fixed;
+}
+
+.main-tile {
+    margin-left: 5%;
+    width: 90%;
+    margin-right: 5%;
+    height: 90%;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+}
+
+.dummy-1 {
+    background-color: yellow;
+}
+
+.dummy-2 {
+    background-color: blue;
+}
+
+.dummy-3 {
+    background-color: red;
+}
+
+.dummy-4 {
+    background-color: purple;
+}
+
+.tile-column {
+    height: 95%;
+    width: 20%;
+    margin: 2.5%;
 }
