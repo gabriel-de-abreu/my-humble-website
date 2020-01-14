@@ -1,3 +1,9 @@
+@media(max-width:720px) {
+    #technologies-section {
+        display: none;
+    }
+}
+
 #technologies-section {
     background-image: url('../imgs/services-img.jpg');
     background-attachment: fixed;
@@ -10,7 +16,7 @@
     height: 90%;
     border: 3px solid rgba(255, 255, 255, 0.8);
     border-radius: 2px;
-    background-color:rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 .dummy-1 {
