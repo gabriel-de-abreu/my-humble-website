@@ -1,0 +1,19 @@
+#me-section {
+    background-color: whitesmoke;
+    color: rgb(67, 67, 67);
+}
+
+#me-section .default-header {
+    color: rgb(67, 67, 67);
+}
+
+.me-paragraph {
+    font-family: 'Lato', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 23px;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 35px;
+    font-stretch: extra-expanded;
+}
