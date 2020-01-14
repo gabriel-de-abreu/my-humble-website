@@ -162,7 +162,7 @@
 
 @media(min-width: 1280px) {
     .navbar-main {
-        width: 34%;
+        width: 36%;
     }
     .navbar-content :last-child {
         margin-right: 10px;
@@ -171,16 +171,16 @@
 
 @media(min-width: 1366px) {
     .navbar-content :last-child {
-        margin-right: 15px;
+        margin-right: 17px;
     }
 }
 
 @media(min-width: 1600px) {
     .navbar-main {
-        width: 28%;
+        width: 31%;
     }
     .navbar-content :last-child {
-        margin-right: 12px;
+        margin-right: 17px;
     }
 }
 
