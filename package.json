@@ -1,0 +1,23 @@
+{
+  "name": "my-humble-website",
+  "version": "1.0.0",
+  "description": "\"Just a simple website of myself\"",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-de-abreu/my-humble-website.git"
+  },
+  "author": "\"Gabriel de Abreu\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-de-abreu/my-humble-website/issues"
+  },
+  "homepage": "https://github.com/gabriel-de-abreu/my-humble-website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
