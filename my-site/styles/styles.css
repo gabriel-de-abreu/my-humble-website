@@ -80,7 +80,6 @@ body {
 #about-section {
     background-color: rgb(104, 104, 104);
     background-image: url('../imgs/maps.PNG');
-    background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     overflow: hidden;
