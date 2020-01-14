@@ -9,9 +9,18 @@ html {
 
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 100;
     color: white;
+}
+
+@media(min-width:560px) {
+    h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 50px;
+        font-weight: 100;
+        color: white;
+    }
 }
 
 body {
