@@ -11,7 +11,8 @@
     .service-block {
         margin-top: 10%;
         margin-bottom: 10%;
-        width: 80%;
+        width: 90%;
+        margin-right: 10%;
         height: 85%;
         text-align: center;
         border: 2px rgb(212, 204, 204) solid;
