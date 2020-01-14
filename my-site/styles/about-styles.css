@@ -90,7 +90,9 @@
         margin-bottom: 3px;
     }
     textarea {
-        height: 80px;
+        resize: none;
+        max-height: 300px;
+        max-width: 100%;
     }
     .inner-center-horizon-div {
         width: 80%;
@@ -187,9 +189,7 @@
         font-weight: 100;
         margin-bottom: 3px;
     }
-    textarea {
-        height: 80px;
-    }
+
     .inner-center-horizon-div {
         width: 80%;
     }
@@ -199,5 +199,11 @@
         width: 100%;
         justify-items: center;
         overflow: hidden;
+    }
+
+    textarea {
+        resize: none;
+        max-height: 150px;
+        max-width: 100%;
     }
 }
