@@ -1,45 +1,87 @@
-#technologies-section {
-    background-image: url('../imgs-originais/tech-img.jpg');
-    background-size: 100%;
-    background-attachment: fixed;
+@media(min-width:720px) {
+    #technologies-section {
+        background-image: url('../imgs-originais/tech-img.jpg');
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    .main-tile {
+        margin-left: 5%;
+        width: 90%;
+        margin-right: 5%;
+        height: 90%;
+        border: 3px solid rgba(255, 255, 255, 0.8);
+        border-radius: 2px;
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+    .tile-column {
+        height: 95%;
+        width: 20%;
+        margin: 2.5%;
+    }
+    .inner-tile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        height: 90%;
+        width: 75%;
+        border: 2px solid rgba(255, 255, 255, 0.8);
+        border-radius: 2px;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        background-color: rgba(156, 152, 152, 0.651);
+        font-family: 'Lato', sans-serif;
+        font-size: 23px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        transition: transform 250ms, border 300ms ease-in-out;
+    }
+    .inner-tile:hover {
+        transform: scale(1.05);
+        border: 2px rgb(248, 248, 248) solid;
+    }
 }
 
-.main-tile {
-    margin-left: 5%;
-    width: 90%;
-    margin-right: 5%;
-    height: 90%;
-    border: 3px solid rgba(255, 255, 255, 0.8);
-    border-radius: 2px;
-    background-color: rgba(0, 0, 0, 0.35);
-}
-
-.tile-column {
-    height: 95%;
-    width: 20%;
-    margin: 2.5%;
-}
-
-.inner-tile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 90%;
-    width: 75%;
-    border: 2px solid rgba(255, 255, 255, 0.8);
-    border-radius: 2px;
-    margin-top: 3.5%;
-    margin-bottom: 3.5%;
-    background-color: rgba(156, 152, 152, 0.651);
-    font-family: 'Lato', sans-serif;
-    font-size: 23px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    transition: transform 250ms, border 300ms ease-in-out;
-}
-
-.inner-tile:hover {
-    transform: scale(1.05);
-    border: 2px rgb(248, 248, 248) solid;
+@media(min-width:320px) and (max-width:719px){
+    #technologies-section {
+        background-image: url('../imgs-originais/tech-img.jpg');
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    .main-tile {
+        margin-left: 5%;
+        width: 90%;
+        margin-right: 5%;
+        height: 90%;
+        border: 3px solid rgba(255, 255, 255, 0.8);
+        border-radius: 2px;
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+    .tile-column {
+        height: 95%;
+        width: 20%;
+        margin: 2.5%;
+    }
+    .inner-tile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        height: 90%;
+        width: 100%;
+        border: 2px solid rgba(255, 255, 255, 0.8);
+        border-radius: 2px;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        background-color: rgba(156, 152, 152, 0.651);
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        transition: transform 250ms, border 300ms ease-in-out;
+        text-align: center;
+    }
+    .inner-tile:hover {
+        transform: scale(1.05);
+        border: 2px rgb(248, 248, 248) solid;
+    }
 }
